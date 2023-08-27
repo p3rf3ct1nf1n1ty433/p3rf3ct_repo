@@ -124,6 +124,7 @@ body {
 
 .post {
   background: #EDF7FA;
+  margin-bottom: 20px;
 }
 .post_title {
   display: flex;
@@ -163,4 +164,60 @@ body {
 .post_text {
   color: var(--dark-color, #21243D);
   font-size: 16px;
+}
+
+.works {
+  margin-bottom: 90px;
+}
+.works_title {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+.works_work {
+  display: flex;
+  margin-bottom: 30px;
+}
+.works_img {
+  margin-right: 18px;
+}
+.works_name {
+  color: var(--dark-color, #21243D);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.works_year {
+  font-size: 18px;
+  font-weight: 900;
+  display: inline-block;
+  border-radius: 16px;
+  background: #142850;
+  color: #FFF;
+  line-height: 16px;
+  padding: 10px 10px;
+  margin-bottom: 30px;
+}
+.works_text {
+  color: var(--dark-color, #21243D);
+  font-size: 16px;
+}
+
+.footer {
+  padding: 51px 0 54px 0;
+}
+.footer_links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 27px;
+}
+.footer_link {
+  margin-right: 35px;
+}
+.footer_link:nth-child(4) {
+  margin-right: 0px;
+}
+.footer_text {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
 }
