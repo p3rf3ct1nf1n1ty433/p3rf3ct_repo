@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.header_container .nav {
+  display: flex;
+  margin-top: 25px;
+  font-size: 20px;
+  margin-bottom: 50px;
+  justify-content: right;
+}
+.header_container .nav .menu {
+  padding-right: 25px;
+}
+
+.container {
+  max-width: 858px;
+  margin: 0 auto;
+}
+
+.name_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.name_container .name_left {
+  max-width: 500px;
+}
+.name_container .name_left .name_title {
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+.name_container .name_left .name_text {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.name_container .name_left .name_button {
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 20px;
+  border-radius: 2px;
+  background: var(--primary, #FF6464);
+}
+
+.post_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 19px;
+}
+.post_header p {
+  font-size: 22px;
+}
+.post_header a {
+  font-size: 16px;
+}
+
+.post {
+  background-color: #EDF7FA;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.post_body {
+  display: flex;
+  justify-content: space-between;
+}
+.post_body .post_left {
+  margin-right: 15px;
+  background-color: #FFF;
+  padding: 27px;
+}
+.post_body .post_left .post_name {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.post_body .post_left .post_date {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.post_body .post_left .post_text {
+  font-size: 16px;
+}
