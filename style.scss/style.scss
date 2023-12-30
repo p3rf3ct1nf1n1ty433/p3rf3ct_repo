@@ -52,6 +52,11 @@ body {
 		color: #000;
 		font-size: 20px;
 		font-weight: 400;
+		transition: 1s;
+		&:hover {
+			color: #00A8CC;
+			scale: 1.1;
+		}
 	}
 }
 
@@ -82,6 +87,10 @@ body {
 	&_btn {
 		border-radius: 2px;
 		background: var(--primary, #FF6464);
+		transition: 1s;
+		&:hover {
+			scale: 1.1;
+		}
 		p {
 			padding: 10px 20px;
 			color: #FFF;
@@ -104,6 +113,10 @@ body {
 	&_link {
 		color: var(--secondry, #00A8CC);
 		font-size: 16px;
+		transition: 1s;
+		&:hover {
+			scale: 1.1;
+		}
 	}
 	&_rows {
 		display: flex;
@@ -152,6 +165,10 @@ body {
 		font-size: 30px;
 		font-weight: 700;
 		margin-bottom: 30px;
+		transition: 1s;
+		&:hover {
+			color: #00A8CC;
+		}
 	}
 	&_year {
 		font-size: 18px;
@@ -179,8 +196,12 @@ body {
 	}
 	&_link {
 		margin-right: 35px;
+		transition: 0.5s;
 		&:nth-child(4) {
 			margin-right: 0px;
+		}
+		&:hover {
+			scale: 1.05;
 		}
 	}
 	&_text {

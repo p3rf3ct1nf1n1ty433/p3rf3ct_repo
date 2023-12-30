@@ -88,6 +88,11 @@ body {
   color: #000;
   font-size: 20px;
   font-weight: 400;
+  transition: 1s;
+}
+.nav a:hover {
+  color: #00A8CC;
+  scale: 1.1;
 }
 
 .container {
@@ -116,6 +121,10 @@ body {
 .name_btn {
   border-radius: 2px;
   background: var(--primary, #FF6464);
+  transition: 1s;
+}
+.name_btn:hover {
+  scale: 1.1;
 }
 .name_btn p {
   padding: 10px 20px;
@@ -138,6 +147,10 @@ body {
 .post_link {
   color: var(--secondry, #00A8CC);
   font-size: 16px;
+  transition: 1s;
+}
+.post_link:hover {
+  scale: 1.1;
 }
 .post_rows {
   display: flex;
@@ -185,6 +198,10 @@ body {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 30px;
+  transition: 1s;
+}
+.works_name:hover {
+  color: #00A8CC;
 }
 .works_year {
   font-size: 18px;
@@ -212,9 +229,13 @@ body {
 }
 .footer_link {
   margin-right: 35px;
+  transition: 0.5s;
 }
 .footer_link:nth-child(4) {
   margin-right: 0px;
+}
+.footer_link:hover {
+  scale: 1.05;
 }
 .footer_text {
   font-size: 14px;
